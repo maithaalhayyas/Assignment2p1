@@ -9,6 +9,8 @@ int main(int argc, char ** argv){
     i++;
 
     if (i < argc) {
+        goto label;
+
     }
     return 0;
 }
