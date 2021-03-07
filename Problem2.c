@@ -30,3 +30,16 @@ void amaze2(){
     printf("\n");
 }
 
+void amaze3()
+{
+   int i;
+   for(i=1;i<=10;i++){
+   
+      if ((i ^ 1) !=(i + 1)){
+         printf("%d ",i);
+      }
+   }
+   
+   printf("\n");
+    
+}
