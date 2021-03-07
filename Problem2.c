@@ -10,3 +10,13 @@ void amazeWOW() {
     }
     printf("\n");
 }
+void amaze1(){
+     int i=1;
+     while(i<10){
+       printf("%d ",i);
+       i+=2;
+       
+     }
+     
+     printf("\n");
+}
