@@ -43,3 +43,15 @@ void amaze3()
    printf("\n");
     
 }
+void amaze4(){
+    // n&1 is 1, then odd, else even
+    int i;
+    for(i=1;i<=10;i++){
+     if((i&1)==1){
+         printf("%d ",i);
+       }
+    }
+    
+    printf("\n");
+}
+
