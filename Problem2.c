@@ -20,3 +20,13 @@ void amaze1(){
      
      printf("\n");
 }
+
+void amaze2(){
+
+    int i;
+    for(i=1;i<=10;i++){
+      (i%2!=0)?printf("%d ",i):0;
+    }
+    printf("\n");
+}
+
