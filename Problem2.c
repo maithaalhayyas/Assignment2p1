@@ -55,3 +55,18 @@ void amaze4(){
     printf("\n");
 }
 
+void amaze5(){
+
+    // n|1 is greater than n, then even, else odd
+  int i;
+  for(i=0;i<=10;i++){
+    if ((i | 1) > i)
+        continue;
+    else
+        printf("%d ",i);
+    }
+    
+    printf("\n");
+
+}
+
